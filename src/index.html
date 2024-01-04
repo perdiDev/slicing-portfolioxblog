@@ -19,7 +19,9 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-primary-dark mx-auto container">
+  <body class="bg-primary-dark mx-auto container max-w-screen-xl text-white">
+
+    <!-- Navbar -->
     <header
       id="navbar"
       class="absolute top-0 left-0 z-20 flex w-full items-center"
@@ -122,7 +124,7 @@
       >
         <div class="md:w-[23.5rem] w-[18rem] aspect-square relative">
           <div
-            class="md:w-[23.5rem] w-[18rem] aspect-square rounded-xl before:rounded-xl before:border-[2px] border-gradient shadow-[0_0_25px_3px] -z-10 shadow-[#7a0707a3] absolute -top-5 -right-6"
+            class="md:w-[23.5rem] w-[18rem] aspect-square rounded-xl before:rounded-xl before:border-[1.5px] border-gradient shadow-[0_0_25px_3px] -z-10 shadow-[#7a0707a3] absolute -top-5 -right-6"
           ></div>
           <img
             src="../assets/img/poto-portfolio.jpeg"
@@ -135,13 +137,57 @@
       </div>
     </main>
 
-    <!-- <section class="py-16 md:py-24 w-full text-center">
-      <div class="flex w-full justify-center">
+    <!-- Project -->
+    <section class="py-16 md:py-24 w-full text-center">
+      <div class="flex w-full justify-center mb-12">
         <h1 class="text-2xl md:text-3xl font-bold text-transparent w-fit gradient-color bg-clip-text">Project</h1>
       </div>
-      <div>
-        <div></div>
+      <div class="flex flex-wrap space-y-8 md:space-y-0">
+        <div class="w-full lg:w-1/2 md:px-8 px-4">
+          <div class="p-4 md:p-6 border-gradient before:rounded-2xl before:border-[1.5px]">
+            <div class="relative rounded-xl w-full aspect-[4/3] overflow-hidden">
+              <img class="object-cover w-full h-full object-center" src="../assets/img/proyek.jpg" alt="" srcset="">
+              <div class="absolute bottom-2 left-2 rounded-md text-white font-semibold text-sm p-1 bg-primary-dark/75">Tailwindcss</div>
+            </div>
+            <div class="pt-4 flex justify-between px-2">
+              <h1 class="text-xl font-bold text-white w-fit">Invixibel.io</h1>
+              <!-- <img class="rotate-[315deg]" src="../assets/arrow-right-solid.svg" alt=""> -->
+              <svg class="stroke-white fill-white stroke-2 rotate-[315deg] w-6 h-6" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path opacity="1" fill="current" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 md:px-8 px-4">
+          <div class="p-4 md:p-6 border-gradient before:rounded-2xl before:border-[1.5px]">
+            <div class="relative rounded-xl w-full aspect-[4/3] overflow-hidden">
+              <img class="object-cover w-full h-full object-center" src="../assets/img/proyek.jpg" alt="" srcset="">
+              <div class="absolute bottom-2 left-2 rounded-md text-white font-semibold text-sm p-1 bg-primary-dark/75">Tailwindcss</div>
+            </div>
+            <div class="pt-4 flex justify-between px-2">
+              <h1 class="text-xl font-bold text-white w-fit">Invixibel.io</h1>
+              <!-- <img class="rotate-[315deg]" src="../assets/arrow-right-solid.svg" alt=""> -->
+              <svg class="stroke-white fill-white stroke-2 rotate-[315deg] w-6 h-6" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path opacity="1" fill="current" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+
+    <!-- Experience -->
+    <!-- <section class="py-16 md:py-24 w-full text-center">
+      <div class="flex w-full justify-center mb-12">
+        <h1 class="text-2xl md:text-3xl font-bold w-fit">Experience</h1>
+      </div>
+          <div class="p-4 md:p-6 border-gradient before:rounded-2xl before:border-[1.5px]">
+            <div class="relative rounded-xl w-full aspect-[4/3] overflow-hidden">
+              <img class="object-cover w-full h-full object-center" src="../assets/img/proyek.jpg" alt="" srcset="">
+              <div class="absolute bottom-2 left-2 rounded-md text-white font-semibold text-sm p-1 bg-primary-dark/75">Tailwindcss</div>
+            </div>
+            <div class="pt-4 flex justify-between px-2">
+              <h1 class="text-xl font-bold text-white w-fit">Invixibel.io</h1>
+              <!-- <img class="rotate-[315deg]" src="../assets/arrow-right-solid.svg" alt=""> -->
+              <svg class="stroke-white fill-white stroke-2 rotate-[315deg] w-6 h-6" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path opacity="1" fill="current" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+            </div>
+          </div>
     </section> -->
 
     <script src="../assets/js/script.js"></script>
