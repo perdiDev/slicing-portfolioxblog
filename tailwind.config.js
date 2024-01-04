@@ -5,6 +5,15 @@ module.exports = {
     fontFamily: {
       'sans': 'poppins'
     },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '6rem',
+        xl: '8rem',
+        '2xl': '8rem',
+      },
+    },
     extend: {
       colors: {
         "primary-dark": "#030113",

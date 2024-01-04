@@ -19,37 +19,131 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-primary-dark container">
-    <main
-      class="h-screen flex space-x-2 flex-wrap-reverse justify-center items-center"
+  <body class="bg-primary-dark mx-auto container">
+    <header
+      id="navbar"
+      class="absolute top-0 left-0 z-20 flex w-full items-center"
     >
-      <div class="w-1/2 pr-24">
-        <h1 class="text-white font-extrabold text-8xl mb-4">
+      <div
+        class="container relative mx-auto flex items-center justify-between py-2"
+      >
+        <!-- Logo nama -->
+        <img src="../assets/Logo Nama.svg" alt="" srcset="" />
+
+        <!-- Hamburger -->
+        <button
+          id="hamburger"
+          name="hamburger"
+          type="button"
+          class="absolute right-4 block lg:hidden"
+        >
+          <span
+            class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+          ></span>
+          <span
+            class="hamburger-line transition duration-300 ease-in-out"
+          ></span>
+          <span
+            class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+          ></span>
+        </button>
+
+        <!-- Navlist -->
+        <nav
+          id="nav-menu"
+          class="absolute right-4 top-full hidden w-[75%] lg:w-fit rounded-lg p-4 pr-8 bg-primary-dark shadow-[0_0_10px_1px] shadow-[#7a0707a3] lg:pr-0 lg:p-0 lg:static lg:block lg:rounded-none lg:bg-transparent lg:shadow-none"
+        >
+          <ul
+            class="flex flex-col lg:flex-row gap-4 text-white font-bold text-lg w-fit lg:space-x-6"
+          >
+            <li class="group">
+              <a
+                href="/"
+                class="flex gap-1 group-hover:bg-secondary-dark transition-all items-center border-gradient py-1 px-3 before:rounded-xl before:border-[1px]"
+              >
+                Home
+              </a>
+            </li>
+            <li class="group">
+              <a
+                href="/"
+                class="flex gap-1 group-hover:bg-secondary-dark transition-all items-center"
+              >
+                Project
+              </a>
+            </li>
+            <li class="group">
+              <a
+                href="/"
+                class="flex gap-1 group-hover:bg-secondary-dark transition-all items-center"
+              >
+                Blog
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <main
+      class="h-screen min-h-fit flex flex-wrap-reverse justify-center content-center"
+    >
+      <div class="md:w-1/2 h-fit md:pt-0 pt-14">
+        <h1 class="text-white font-extrabold md:text-[5.5rem] text-6xl md:mb-4 mb-2">
           Write Your
           <span
             class="bg-gradient-to-br from-[#E11A1A] to-[#A635FF] bg-clip-text text-transparent"
             >Code</span
           >
         </h1>
-        <p class="text-white font-normal text-lg max-w-fit leading-7 mb-6">
+        <p
+          class="text-white font-normal text-base md:text-lg max-w-fit md:leading-7 md:mb-8 mb-4"
+        >
           I am a computer science student at Hasanuddin University with a strong
           coding background since high school. Currently, I am technical core
           team at Google Developer Student Club chapter Unhas.
         </p>
         <div class="space-x-4">
           <button
-            class="bg-white text-primary-dark font-extrabold text-2xl py-2 px-3 rounded-lg"
+            class="bg-white text-primary-dark md:font-extrabold text-xl font-bold md:text-2xl py-2 px-3 rounded-xl"
           >
             Get in Touch
           </button>
           <button
-            class="text-white border-2 font-extrabold text-2xl py-2 px-3 rounded-lg"
+            class="text-white border-2 md:font-extrabold text-xl font-bold md:text-2xl py-2 px-3 rounded-xl"
           >
             Download CV
           </button>
         </div>
       </div>
-      <div class="w-96 h-96 bg-red-600"></div>
+      <div
+        class="md:w-1/2 h-fit flex md:justify-end justify-center md:pt-0 pt-14"
+      >
+        <div class="md:w-[23.5rem] w-[18rem] aspect-square relative">
+          <div
+            class="md:w-[23.5rem] w-[18rem] aspect-square rounded-xl before:rounded-xl before:border-[2px] border-gradient shadow-[0_0_25px_3px] -z-10 shadow-[#7a0707a3] absolute -top-5 -right-6"
+          ></div>
+          <img
+            src="../assets/img/poto-portfolio.jpeg"
+            width="30"
+            height="30"
+            alt="Perdi"
+            class="md:w-[23.5rem] w-[18rem] aspect-square rounded-xl absolute top-0 ring-0 z-10"
+          />
+        </div>
+      </div>
     </main>
+
+    <!-- <section class="py-16 md:py-24 w-full text-center">
+      <div class="flex w-full justify-center">
+        <h1 class="text-2xl md:text-3xl font-bold text-transparent w-fit gradient-color bg-clip-text">Project</h1>
+      </div>
+      <div>
+        <div></div>
+      </div>
+    </section> -->
+
+    <script src="../assets/js/script.js"></script>
   </body>
 </html>
