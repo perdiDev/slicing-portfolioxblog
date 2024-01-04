@@ -34,7 +34,6 @@
   @apply translate-x-3;
 }
 
-
 .border-gradient {
   display: flow-root;
   position: relative;
@@ -64,4 +63,10 @@
   background: linear-gradient(#F4E9F7 0 0) padding-box,
               linear-gradient(315deg, #360899, #BA0000) border-box;
   border: 2px solid transparent;
+}
+
+@media (max-width: 379) {
+  .hero-image {
+    width: 14rem;
+  }
 }
