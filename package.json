@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "pnpm tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev:clean": "pnpm prettier --write ./**/*.{html,.js} --plugin=prettier-plugin-tailwindcss"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,8 @@
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.10",
     "tailwindcss": "^3.4.0"
   }
 }

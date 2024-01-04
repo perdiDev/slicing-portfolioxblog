@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -19,11 +19,11 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-primary-dark mx-auto container max-w-screen-xl text-white">
+  <body class="container mx-auto max-w-screen-xl bg-primary-dark text-white">
     <!-- Navbar -->
     <header
       id="navbar"
-      class="absolute top-0 left-0 z-20 flex w-full items-center"
+      class="absolute left-0 top-0 z-20 flex w-full items-center"
     >
       <div
         class="container relative mx-auto flex items-center justify-between py-2"
@@ -52,15 +52,15 @@
         <!-- Navlist -->
         <nav
           id="nav-menu"
-          class="absolute right-4 top-full hidden w-[75%] lg:w-fit rounded-lg p-4 pr-8 bg-primary-dark shadow-[0_0_10px_1px] shadow-[#7a0707a3] lg:pr-0 lg:p-0 lg:static lg:block lg:rounded-none lg:bg-transparent lg:shadow-none"
+          class="absolute right-4 top-full hidden w-[75%] rounded-lg bg-primary-dark p-4 pr-8 shadow-[0_0_10px_1px] shadow-[#7a0707a3] lg:static lg:block lg:w-fit lg:rounded-none lg:bg-transparent lg:p-0 lg:pr-0 lg:shadow-none"
         >
           <ul
-            class="flex flex-col lg:flex-row gap-4 text-white font-bold text-lg w-fit lg:space-x-6"
+            class="flex w-fit flex-col gap-4 text-lg font-bold text-white lg:flex-row lg:space-x-6"
           >
             <li class="group">
               <a
                 href="/"
-                class="flex gap-1 group-hover:bg-secondary-dark transition-all items-center border-gradient py-1 px-3 before:rounded-xl before:border-[1px]"
+                class="border-gradient flex items-center gap-1 px-3 py-1 transition-all before:rounded-xl before:border-[1px] group-hover:bg-secondary-dark"
               >
                 Home
               </a>
@@ -68,7 +68,7 @@
             <li class="group">
               <a
                 href="/"
-                class="flex gap-1 group-hover:bg-secondary-dark transition-all items-center"
+                class="flex items-center gap-1 transition-all group-hover:bg-secondary-dark"
               >
                 Project
               </a>
@@ -76,7 +76,7 @@
             <li class="group">
               <a
                 href="/"
-                class="flex gap-1 group-hover:bg-secondary-dark transition-all items-center"
+                class="flex items-center gap-1 transition-all group-hover:bg-secondary-dark"
               >
                 Blog
               </a>
@@ -88,11 +88,11 @@
 
     <!-- Hero section -->
     <main
-      class="h-screen min-h-fit flex flex-wrap-reverse justify-center content-center"
+      class="flex h-screen min-h-fit flex-wrap-reverse content-center justify-center"
     >
-      <div class="md:w-1/2 h-fit md:pt-0 pt-14">
+      <div class="h-fit pt-14 md:w-1/2 md:pt-0">
         <h1
-          class="text-white font-extrabold md:text-[5.5rem] text-6xl md:mb-4 mb-2"
+          class="mb-2 text-6xl font-extrabold text-white md:mb-4 md:text-[5.5rem]"
         >
           Write Your
           <span
@@ -101,7 +101,7 @@
           >
         </h1>
         <p
-          class="text-white font-normal text-base md:text-lg max-w-fit md:leading-7 md:mb-8 mb-4"
+          class="mb-4 max-w-fit text-base font-normal md:mb-8 md:text-lg md:leading-7"
         >
           I am a computer science student at Hasanuddin University with a strong
           coding background since high school. Currently, I am technical core
@@ -109,69 +109,69 @@
         </p>
         <div class="space-x-4">
           <button
-            class="bg-white text-primary-dark md:font-extrabold text-xl font-bold md:text-2xl py-2 px-3 rounded-xl"
+            class="rounded-xl bg-white px-3 py-2 text-xl font-bold text-primary-dark md:text-2xl md:font-extrabold"
           >
             Get in Touch
           </button>
           <button
-            class="text-white border-2 md:font-extrabold text-xl font-bold md:text-2xl py-2 px-3 rounded-xl"
+            class="rounded-xl border-2 px-3 py-2 text-xl font-bold text-white md:text-2xl md:font-extrabold"
           >
             Download CV
           </button>
         </div>
       </div>
       <div
-        class="md:w-1/2 h-fit flex md:justify-end justify-center md:pt-0 pt-14"
+        class="flex h-fit justify-center pt-14 md:w-1/2 md:justify-end md:pt-0"
       >
-        <div class="md:w-[23.5rem] w-[18rem] aspect-square relative">
+        <div class="relative aspect-square w-[18rem] md:w-[23.5rem]">
           <div
-            class="md:w-[23.5rem] w-[18rem] aspect-square rounded-xl before:rounded-xl before:border-[1.5px] border-gradient shadow-[0_0_25px_3px] -z-10 shadow-[#7a0707a3] absolute -top-5 -right-6"
+            class="border-gradient absolute -right-6 -top-5 -z-10 aspect-square w-[18rem] rounded-xl shadow-[0_0_25px_3px] shadow-[#7a0707a3] before:rounded-xl before:border-[1.5px] md:w-[23.5rem]"
           ></div>
           <img
             src="../assets/img/poto-portfolio.jpeg"
             width="30"
             height="30"
             alt="Perdi"
-            class="md:w-[23.5rem] w-[18rem] aspect-square rounded-xl absolute top-0 ring-0 z-10"
+            class="absolute top-0 z-10 aspect-square w-[18rem] rounded-xl ring-0 md:w-[23.5rem]"
           />
         </div>
       </div>
     </main>
 
     <!-- Project -->
-    <section class="py-16 md:py-24 w-full text-center">
-      <div class="flex w-full justify-center mb-12">
+    <section class="w-full py-16 text-center md:py-24">
+      <div class="mb-12 flex w-full justify-center">
         <h1
-          class="text-2xl md:text-3xl font-bold text-transparent w-fit gradient-color bg-clip-text"
+          class="gradient-color w-fit bg-clip-text text-2xl font-bold text-transparent md:text-3xl"
         >
           Project
         </h1>
       </div>
       <div class="flex flex-wrap space-y-8 md:space-y-0">
-        <div class="w-full lg:w-1/2 md:px-8 px-4">
+        <div class="w-full px-4 md:px-8 lg:w-1/2">
           <div
-            class="p-4 md:p-6 border-gradient before:rounded-2xl before:border-[1.5px]"
+            class="border-gradient p-4 before:rounded-2xl before:border-[1.5px] md:p-6"
           >
             <div
-              class="relative rounded-xl w-full aspect-[4/3] overflow-hidden"
+              class="relative aspect-[4/3] w-full overflow-hidden rounded-xl"
             >
               <img
-                class="object-cover w-full h-full object-center"
+                class="h-full w-full object-cover object-center"
                 src="../assets/img/proyek.jpg"
                 alt=""
                 srcset=""
               />
               <div
-                class="absolute bottom-2 left-2 rounded-md text-white font-semibold text-sm p-1 bg-primary-dark/75"
+                class="absolute bottom-2 left-2 rounded-md bg-primary-dark/75 p-1 text-sm font-semibold text-white"
               >
                 Tailwindcss
               </div>
             </div>
-            <div class="pt-4 flex justify-between px-2">
-              <h1 class="text-xl font-bold text-white w-fit">Invixibel.io</h1>
+            <div class="flex justify-between px-2 pt-4">
+              <h1 class="w-fit text-xl font-bold text-white">Invixibel.io</h1>
               <!-- <img class="rotate-[315deg]" src="../assets/arrow-right-solid.svg" alt=""> -->
               <svg
-                class="stroke-white fill-white stroke-2 rotate-[315deg] w-6 h-6"
+                class="h-6 w-6 rotate-[315deg] fill-white stroke-white stroke-2"
                 xmlns="http://www.w3.org/2000/svg"
                 height="16"
                 width="14"
@@ -187,30 +187,30 @@
             </div>
           </div>
         </div>
-        <div class="w-full lg:w-1/2 md:px-8 px-4">
+        <div class="w-full px-4 md:px-8 lg:w-1/2">
           <div
-            class="p-4 md:p-6 border-gradient before:rounded-2xl before:border-[1.5px]"
+            class="border-gradient p-4 before:rounded-2xl before:border-[1.5px] md:p-6"
           >
             <div
-              class="relative rounded-xl w-full aspect-[4/3] overflow-hidden"
+              class="relative aspect-[4/3] w-full overflow-hidden rounded-xl"
             >
               <img
-                class="object-cover w-full h-full object-center"
+                class="h-full w-full object-cover object-center"
                 src="../assets/img/proyek.jpg"
                 alt=""
                 srcset=""
               />
               <div
-                class="absolute bottom-2 left-2 rounded-md text-white font-semibold text-sm p-1 bg-primary-dark/75"
+                class="absolute bottom-2 left-2 rounded-md bg-primary-dark/75 p-1 text-sm font-semibold text-white"
               >
                 Tailwindcss
               </div>
             </div>
-            <div class="pt-4 flex justify-between px-2">
-              <h1 class="text-xl font-bold text-white w-fit">Invixibel.io</h1>
+            <div class="flex justify-between px-2 pt-4">
+              <h1 class="w-fit text-xl font-bold text-white">Invixibel.io</h1>
               <!-- <img class="rotate-[315deg]" src="../assets/arrow-right-solid.svg" alt=""> -->
               <svg
-                class="stroke-white fill-white stroke-2 rotate-[315deg] w-6 h-6"
+                class="h-6 w-6 rotate-[315deg] fill-white stroke-white stroke-2"
                 xmlns="http://www.w3.org/2000/svg"
                 height="16"
                 width="14"
@@ -228,23 +228,25 @@
         </div>
       </div>
     </section>
-    
+
     <!-- Experience -->
-    <section class="py-16 md:py-24 w-full text-center">
-      <div class="flex w-full justify-center mb-12">
-        <h1 class="text-2xl md:text-3xl font-bold w-fit">Experience</h1>
+    <section class="w-full py-16 text-center md:py-24">
+      <div class="mb-12 flex w-full justify-center">
+        <h1 class="w-fit text-2xl font-bold md:text-3xl">Experience</h1>
       </div>
       <div
-      class="p-4 md:p-6 border-gradient before:rounded-2xl before:border-[1.5px]"
+        class="border-gradient p-4 before:rounded-2xl before:border-[1.5px] md:p-6"
       >
-      <div class="flex flex-col md:flex-row md:justify-between font-medium text-base md:text-lg md:font-semibold space-y-2 md:space-y-0">
+        <div
+          class="flex flex-col space-y-2 text-base font-medium md:flex-row md:justify-between md:space-y-0 md:text-lg md:font-semibold"
+        >
           <div class="inline-flex items-center gap-4">
             <img src="../assets/code 2.svg" alt="" srcset="" />
             <h2 class="">Core Team GDSC Unhas</h2>
           </div>
           <p class="text-left">September 2023 - Now</p>
         </div>
-        <p class="text-left pt-2 font-extralight text-sm md:text-base">
+        <p class="pt-2 text-left text-sm font-extralight md:text-base">
           As a Technical Core Team at the Google Developer Student Club chapter
           of Hasanuddin University, my role primarily focused on the backend
           path. I developed a curriculum tailored to cater to nearly 100 active
@@ -252,47 +254,47 @@
           within the club.
         </p>
       </div>
-      <div class="w-full flex justify-center pt-6">
-        <img src="../assets/dot.svg" alt="">
+      <div class="flex w-full justify-center pt-6">
+        <img src="../assets/dot.svg" alt="" />
       </div>
     </section>
 
     <!-- Blog -->
-    <section class="py-16 md:py-24 w-full text-center">
-      <div class="flex w-full justify-center mb-12">
-        <h1
-          class="text-2xl md:text-3xl font-bold w-fit"
-        >
-          Blog
-        </h1>
+    <section class="w-full py-16 text-center md:py-24">
+      <div class="mb-12 flex w-full justify-center">
+        <h1 class="w-fit text-2xl font-bold md:text-3xl">Blog</h1>
       </div>
       <div class="flex flex-wrap space-y-8 md:space-y-0">
-        <div class="w-full lg:w-1/2 md:px-8 px-4">
+        <div class="w-full px-4 md:px-8 lg:w-1/2">
           <div
-            class="p-4 md:p-6 border-gradient before:rounded-2xl before:border-[2px] bg-white rounded-2xl"
+            class="border-gradient-white rounded-2xl border-0 p-4 before:rounded-2xl md:p-6"
           >
             <div
-              class="relative rounded-xl w-full aspect-[16/9] overflow-hidden"
+              class="relative aspect-[16/9] w-full overflow-hidden rounded-xl"
             >
               <img
-                class="object-cover w-full h-full object-center"
+                class="h-full w-full object-cover object-center"
                 src="../assets/img/proyek.jpg"
                 alt=""
                 srcset=""
               />
               <div
-                class="absolute bottom-2 left-2 rounded-md text-white font-semibold text-sm p-1 bg-primary-dark/75"
+                class="absolute bottom-2 left-2 rounded-md bg-primary-dark/75 p-1 text-sm font-semibold text-white"
               >
                 Tailwindcss
               </div>
             </div>
-            <div class="pt-4 px-2 space-y-1">
-              <h1 class="text-xl font-bold w-fit text-primary-dark">Invixibel.io</h1>
-              <p class="text-blue-text text-left font-semibold text-base">Active lesson for implementing Infinite Scroll in any kind of...</p>
-              <a href="#" class="flex space-x-1 text-blue-800 font-semibold">
+            <div class="space-y-1 px-2 pt-4">
+              <h1 class="w-fit text-xl font-bold text-primary-dark">
+                Invixibel.io
+              </h1>
+              <p class="text-left text-base font-semibold text-blue-text">
+                Active lesson for implementing Infinite Scroll in any kind of...
+              </p>
+              <a href="#" class="flex space-x-1 font-semibold text-blue-800">
                 Read More
                 <svg
-                  class="stroke-blue-800 fill-blue-800 stroke-2 rotate-[315deg] w-6 h-6"
+                  class="h-6 w-6 rotate-[315deg] fill-blue-800 stroke-blue-800 stroke-2"
                   xmlns="http://www.w3.org/2000/svg"
                   height="16"
                   width="14"
@@ -305,37 +307,40 @@
                     d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
                   />
                 </svg>
-                
-              </a href="#">
+              </a>
             </div>
           </div>
         </div>
-        <div class="w-full lg:w-1/2 md:px-8 px-4">
+        <div class="w-full px-4 md:px-8 lg:w-1/2">
           <div
-            class="p-4 md:p-6 border-gradient before:rounded-2xl before:border-[2px] bg-white rounded-2xl"
+            class="border-gradient-white rounded-2xl border-0 p-4 before:rounded-2xl md:p-6"
           >
             <div
-              class="relative rounded-xl w-full aspect-[16/9] overflow-hidden"
+              class="relative aspect-[16/9] w-full overflow-hidden rounded-xl"
             >
               <img
-                class="object-cover w-full h-full object-center"
+                class="h-full w-full object-cover object-center"
                 src="../assets/img/proyek.jpg"
                 alt=""
                 srcset=""
               />
               <div
-                class="absolute bottom-2 left-2 rounded-md text-white font-semibold text-sm p-1 bg-primary-dark/75"
+                class="absolute bottom-2 left-2 rounded-md bg-primary-dark/75 p-1 text-sm font-semibold text-white"
               >
                 Tailwindcss
               </div>
             </div>
-            <div class="pt-4 px-2 space-y-1">
-              <h1 class="text-xl font-bold w-fit text-primary-dark">Invixibel.io</h1>
-              <p class="text-blue-text text-left font-semibold text-base">Active lesson for implementing Infinite Scroll in any kind of...</p>
-              <a href="#" class="flex space-x-1 text-blue-800 font-semibold">
+            <div class="space-y-1 px-2 pt-4">
+              <h1 class="w-fit text-xl font-bold text-primary-dark">
+                Invixibel.io
+              </h1>
+              <p class="text-left text-base font-semibold text-blue-text">
+                Active lesson for implementing Infinite Scroll in any kind of...
+              </p>
+              <a href="#" class="flex space-x-1 font-semibold text-blue-800">
                 Read More
                 <svg
-                  class="stroke-blue-800 fill-blue-800 stroke-2 rotate-[315deg] w-6 h-6"
+                  class="h-6 w-6 rotate-[315deg] fill-blue-800 stroke-blue-800 stroke-2"
                   xmlns="http://www.w3.org/2000/svg"
                   height="16"
                   width="14"
@@ -348,8 +353,7 @@
                     d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
                   />
                 </svg>
-                
-              </a href="#">
+              </a>
             </div>
           </div>
         </div>
@@ -357,36 +361,143 @@
     </section>
 
     <!-- Skills -->
-    <section class="py-16 md:py-24 w-full text-center">
-      <div class="flex w-full justify-center mb-12">
+    <section class="w-full py-16 text-center md:py-24">
+      <div class="mb-12 flex w-full justify-center">
         <h1
-          class="text-2xl md:text-3xl font-bold text-transparent w-fit gradient-color bg-clip-text"
+          class="gradient-color w-fit bg-clip-text text-2xl font-bold text-transparent md:text-3xl"
         >
           Skills
         </h1>
       </div>
-      <div class="grid grid-cols-3 md:grid-cols-6 gap-8">
-        <div class="border-gradient w-full aspect-square before:rounded-xl p-2 md:p-4">
-          <img src="../assets/skills/brand-javascript.svg" alt="" class="w-full aspect-square">
+      <div class="grid grid-cols-3 gap-8 md:grid-cols-6">
+        <div
+          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
+        >
+          <img
+            src="../assets/skills/brand-javascript.svg"
+            alt=""
+            class="aspect-square w-full"
+          />
         </div>
-        <div class="border-gradient w-full aspect-square before:rounded-xl p-2 md:p-4">
-          <img src="../assets/skills/brand-nextjs.svg" alt="" class="w-full aspect-square">
+        <div
+          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
+        >
+          <img
+            src="../assets/skills/brand-nextjs.svg"
+            alt=""
+            class="aspect-square w-full"
+          />
         </div>
-        <div class="border-gradient w-full aspect-square before:rounded-xl p-6">
-          <img src="../assets/skills/nestjs.svg" alt="" class="w-full aspect-square">
+        <div class="border-gradient aspect-square w-full p-6 before:rounded-xl">
+          <img
+            src="../assets/skills/nestjs.svg"
+            alt=""
+            class="aspect-square w-full"
+          />
         </div>
-        <div class="border-gradient w-full aspect-square before:rounded-xl p-2 md:p-4">
-          <img src="../assets/skills/brand-tailwind.svg" alt="" class="w-full aspect-square">
+        <div
+          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
+        >
+          <img
+            src="../assets/skills/brand-tailwind.svg"
+            alt=""
+            class="aspect-square w-full"
+          />
         </div>
-        <div class="border-gradient w-full aspect-square before:rounded-xl p-2 md:p-4">
-          <img src="../assets/skills/brand-git.svg" alt="" class="w-full aspect-square">
+        <div
+          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
+        >
+          <img
+            src="../assets/skills/brand-git.svg"
+            alt=""
+            class="aspect-square w-full"
+          />
         </div>
-        <div class="border-gradient w-full aspect-square before:rounded-xl p-2 md:p-4">
-          <img src="../assets/skills/c-plus-plus.svg" alt="" class="w-full aspect-square">
+        <div
+          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
+        >
+          <img
+            src="../assets/skills/c-plus-plus.svg"
+            alt=""
+            class="aspect-square w-full"
+          />
         </div>
       </div>
     </section>
-    
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-12 pt-24">
+      <div class="border-gradient-dark rounded-xl px-4 py-16 md:px-12">
+        <div class="flex flex-col md:flex-row md:items-end">
+          <div class="mb-6 grow md:mb-0">
+            <h1
+              class="gradient-color w-fit bg-clip-text pb-4 text-4xl font-extrabold leading-[2.5rem] text-transparent md:mb-4 md:text-[3.5rem] md:leading-[4rem]"
+            >
+              Let’s talk for <br />Something special
+            </h1>
+            <p class="max-w-lg text-base font-light md:text-lg md:leading-7">
+              Interested in working together or have a question? Feel free to
+              reach out. I'm here to help you turn your ideas into amazing
+              digital realities. Looking forward to hearing from you soon!
+            </p>
+          </div>
+          <div class="flex w-fit flex-col gap-6">
+            <a
+              href="#"
+              class="border-gradient px-6 py-4 text-lg font-semibold before:rounded-lg"
+            >
+              <div class="flex items-center gap-4">
+                <img
+                  src="../assets/footer/email.svg"
+                  alt="email"
+                  class="aspect-square h-8"
+                />
+                <p>perdidev@gmail.com</p>
+              </div>
+            </a>
+            <div class="grid grid-cols-3 gap-5">
+              <a
+                href="#"
+                class="border-gradient aspect-square w-full p-2 before:rounded-xl"
+              >
+                <img
+                  src="../assets/footer/mdi_twitter.svg"
+                  alt=""
+                  class="aspect-square w-full"
+                />
+              </a>
+              <a
+                href="#"
+                class="border-gradient aspect-square w-full p-2 before:rounded-xl"
+              >
+                <img
+                  src="../assets/footer/ri_instagram-fill.svg"
+                  alt=""
+                  class="aspect-square w-full"
+                />
+              </a>
+              <a
+                href="#"
+                class="border-gradient aspect-square w-full p-2 before:rounded-xl"
+              >
+                <img
+                  src="../assets/footer/ri_linkedin-fill.svg"
+                  alt=""
+                  class="aspect-square w-full"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="mt-12 text-center">
+        &copy; Perdi
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
+    </footer>
+
     <script src="../assets/js/script.js"></script>
   </body>
 </html>

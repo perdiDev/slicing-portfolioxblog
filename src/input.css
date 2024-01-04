@@ -38,7 +38,6 @@
 .border-gradient {
   display: flow-root;
   position: relative;
-  /* padding: 1.3rem; */
 }
 
 .border-gradient::before {
@@ -48,10 +47,21 @@
   left: 0;
   right: 0;
   bottom: 0;
-  /* border-radius: 12px; */
   border: solid transparent;
   background: linear-gradient(135deg, #BA0000, #360899) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
+}
+
+.border-gradient-dark {
+  background: linear-gradient(#0A071D 0 0) padding-box,
+              linear-gradient(315deg, #360899, #BA0000) border-box;
+  border: 1px solid transparent;
+}
+
+.border-gradient-white {
+  background: linear-gradient(#F4E9F7 0 0) padding-box,
+              linear-gradient(315deg, #360899, #BA0000) border-box;
+  border: 2px solid transparent;
 }
