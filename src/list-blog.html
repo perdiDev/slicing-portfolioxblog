@@ -86,185 +86,35 @@
       </div>
     </header>
 
-    <!-- Hero section -->
-    <main
-      class="flex h-screen min-h-fit flex-wrap-reverse content-center justify-center"
-    >
-      <div class="h-fit pt-14 lg:w-1/2 lg:pt-0">
-        <h1
-          class="mb-2 text-[3.2rem] font-extrabold leading-[1] text-white md:mb-4 lg:text-[75px] xl:text-[5.5rem] xs:text-6xl"
-        >
-          Write Your
-          <span
-            class="bg-gradient-to-br from-[#E11A1A] to-[#A635FF] bg-clip-text text-transparent"
-            >Code</span
-          >
-        </h1>
-        <p
-          class="mb-4 max-w-fit text-base font-normal md:mb-8 md:text-lg md:leading-7"
-        >
-          I am a computer science student at Hasanuddin University with a strong
-          coding background since high school. Currently, I am technical core
-          team at Google Developer Student Club chapter Unhas.
-        </p>
-        <div class="space-x-2 xs:space-x-4">
-          <button
-            class="rounded-xl bg-white px-3 py-2 text-lg font-bold text-primary-dark md:text-2xl md:font-extrabold xs:text-xl"
-          >
-            Get in Touch
-          </button>
-          <button
-            class="rounded-xl border-2 px-3 py-2 text-lg font-bold text-white md:text-2xl md:font-extrabold xs:text-xl"
-          >
-            Download CV
-          </button>
-        </div>
-      </div>
+    <section id="title-search" class="mt-32">
       <div
-        class="flex h-fit justify-center pt-32 md:w-1/2 md:justify-end md:pt-0 xs:pt-14"
+        class="border-gradient relative flex w-full items-center justify-center justify-items-center before:rounded-2xl before:border-[1.5px]"
       >
-        <div
-          class="relative aspect-square w-[14.5rem] sm:w-[18rem] md:w-[23.5rem] xs:w-[18rem]"
-        >
-          <div
-            class="border-gradient absolute -right-6 -top-5 -z-10 aspect-square w-[14.5rem] rounded-xl shadow-[0_0_25px_3px] shadow-[#7a0707a3] before:rounded-xl before:border-[1.5px] sm:w-[18rem] md:w-[23.5rem] xs:w-[18rem]"
-          ></div>
-          <img
-            src="../assets/img/poto-portfolio.jpeg"
-            width="30"
-            height="30"
-            alt="Perdi"
-            class="absolute top-0 z-10 aspect-square w-[14.5rem] rounded-xl ring-0 sm:w-[18rem] md:w-[23.5rem] xs:w-[18rem]"
+        <div class="flex w-full flex-col items-center">
+          <h1
+            class="gradient-color mb-12 bg-clip-text p-4 text-5xl font-bold text-transparent md:p-6"
+          >
+            Story Blog
+          </h1>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search"
+            class="absolute inset-y-[calc(50%+36px)] bottom-0 h-16 w-1/2 rounded-lg bg-secondary-dark px-6 text-xl font-bold focus:outline-none focus:ring-1 focus:ring-red-950"
           />
         </div>
-      </div>
-    </main>
-
-    <!-- Project -->
-    <section class="w-full py-16 text-center md:py-24">
-      <div class="mb-12 flex w-full justify-center">
-        <h1
-          class="gradient-color w-fit bg-clip-text text-2xl font-bold text-transparent md:text-3xl"
-        >
-          Project
-        </h1>
-      </div>
-      <div class="flex flex-wrap space-y-8 md:space-y-0">
-        <div class="w-full px-4 md:px-8 lg:w-1/2">
-          <div
-            class="border-gradient p-4 before:rounded-2xl before:border-[1.5px] md:p-6"
-          >
-            <div
-              class="relative aspect-[4/3] w-full overflow-hidden rounded-xl"
-            >
-              <img
-                class="h-full w-full object-cover object-center"
-                src="../assets/img/proyek.jpg"
-                alt=""
-                srcset=""
-              />
-              <div
-                class="absolute bottom-2 left-2 rounded-md bg-primary-dark/75 p-1 text-sm font-semibold text-white"
-              >
-                Tailwindcss
-              </div>
-            </div>
-            <div class="flex justify-between px-2 pt-4">
-              <h1 class="w-fit text-xl font-bold text-white">Invixibel.io</h1>
-              <!-- <img class="rotate-[315deg]" src="../assets/arrow-right-solid.svg" alt=""> -->
-              <svg
-                class="h-6 w-6 rotate-[315deg] fill-white stroke-white stroke-2"
-                xmlns="http://www.w3.org/2000/svg"
-                height="16"
-                width="14"
-                viewBox="0 0 448 512"
-              >
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path
-                  opacity="1"
-                  fill="current"
-                  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="w-full px-4 md:px-8 lg:w-1/2">
-          <div
-            class="border-gradient p-4 before:rounded-2xl before:border-[1.5px] md:p-6"
-          >
-            <div
-              class="relative aspect-[4/3] w-full overflow-hidden rounded-xl"
-            >
-              <img
-                class="h-full w-full object-cover object-center"
-                src="../assets/img/proyek.jpg"
-                alt=""
-                srcset=""
-              />
-              <div
-                class="absolute bottom-2 left-2 rounded-md bg-primary-dark/75 p-1 text-sm font-semibold text-white"
-              >
-                Tailwindcss
-              </div>
-            </div>
-            <div class="flex justify-between px-2 pt-4">
-              <h1 class="w-fit text-xl font-bold text-white">Invixibel.io</h1>
-              <!-- <img class="rotate-[315deg]" src="../assets/arrow-right-solid.svg" alt=""> -->
-              <svg
-                class="h-6 w-6 rotate-[315deg] fill-white stroke-white stroke-2"
-                xmlns="http://www.w3.org/2000/svg"
-                height="16"
-                width="14"
-                viewBox="0 0 448 512"
-              >
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path
-                  opacity="1"
-                  fill="current"
-                  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience -->
-    <section class="w-full py-16 text-center md:py-24">
-      <div class="mb-12 flex w-full justify-center">
-        <h1 class="w-fit text-2xl font-bold md:text-3xl">Experience</h1>
-      </div>
-      <div
-        class="border-gradient p-4 before:rounded-2xl before:border-[1.5px] md:p-6"
-      >
-        <div
-          class="flex flex-col space-y-2 text-base font-medium md:flex-row md:justify-between md:space-y-0 md:text-lg md:font-semibold"
-        >
-          <div class="inline-flex items-center gap-4">
-            <img src="../assets/code 2.svg" alt="" srcset="" />
-            <h2 class="">Core Team GDSC Unhas</h2>
-          </div>
-          <p class="text-left">September 2023 - Now</p>
-        </div>
-        <p class="pt-2 text-left text-sm font-extralight md:text-base">
-          As a Technical Core Team at the Google Developer Student Club chapter
-          of Hasanuddin University, my role primarily focused on the backend
-          path. I developed a curriculum tailored to cater to nearly 100 active
-          community members, ensuring comprehensive learning opportunities
-          within the club.
-        </p>
-      </div>
-      <div class="flex w-full justify-center pt-6">
-        <img src="../assets/dot.svg" alt="" />
       </div>
     </section>
 
     <!-- Blog -->
     <section class="w-full py-16 text-center md:py-24">
-      <div class="mb-12 flex w-full justify-center">
-        <h1 class="w-fit text-2xl font-bold md:text-3xl">Blog</h1>
+      <div
+        class="mb-24 flex w-full justify-center space-x-8 text-xl font-bold md:text-2xl"
+      >
+        <a href="#" class="w-fit border-b-2 border-red-900">All</a>
+        <a href="#" class="w-fit">Life</a>
+        <a href="#" class="w-fit">Coding</a>
       </div>
       <div class="flex flex-wrap space-y-8 lg:space-y-0">
         <div class="w-full px-4 md:px-8 lg:w-1/2">
@@ -358,71 +208,6 @@
               </a>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="w-full py-16 text-center md:py-24">
-      <div class="mb-12 flex w-full justify-center">
-        <h1
-          class="gradient-color w-fit bg-clip-text text-2xl font-bold text-transparent md:text-3xl"
-        >
-          Skills
-        </h1>
-      </div>
-      <div class="grid grid-cols-3 gap-8 md:grid-cols-6">
-        <div
-          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
-        >
-          <img
-            src="../assets/skills/brand-javascript.svg"
-            alt=""
-            class="aspect-square w-full"
-          />
-        </div>
-        <div
-          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
-        >
-          <img
-            src="../assets/skills/brand-nextjs.svg"
-            alt=""
-            class="aspect-square w-full"
-          />
-        </div>
-        <div class="border-gradient aspect-square w-full p-6 before:rounded-xl">
-          <img
-            src="../assets/skills/nestjs.svg"
-            alt=""
-            class="aspect-square w-full"
-          />
-        </div>
-        <div
-          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
-        >
-          <img
-            src="../assets/skills/brand-tailwind.svg"
-            alt=""
-            class="aspect-square w-full"
-          />
-        </div>
-        <div
-          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
-        >
-          <img
-            src="../assets/skills/brand-git.svg"
-            alt=""
-            class="aspect-square w-full"
-          />
-        </div>
-        <div
-          class="border-gradient aspect-square w-full p-2 before:rounded-xl md:p-4"
-        >
-          <img
-            src="../assets/skills/c-plus-plus.svg"
-            alt=""
-            class="aspect-square w-full"
-          />
         </div>
       </div>
     </section>
